@@ -1,2 +1,2 @@
-# friend_of_blackberry_hub
+# friend-of-blackberryhub
 A friend app of BlackBerry Hub
