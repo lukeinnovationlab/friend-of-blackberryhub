@@ -2,5 +2,7 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="text_size_random_number">24dip</dimen>
+    <dimen name="text_size_random_number">24sp</dimen>
+    <dimen name="text_size_promotion_code">12sp</dimen>
+    <dimen name="action_vertical_margin">40dp</dimen>
 </resources>

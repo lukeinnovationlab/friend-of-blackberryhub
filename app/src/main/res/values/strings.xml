@@ -1,6 +1,24 @@
 <resources>
     <string name="app_name">Friend Of BlackBerry Hub</string>
     <string name="text_intro">BlackBerry Hub is great! \nNow you can share BlackBerry Hub to your friends!</string>
-    <string name="action_share">Share BlackBerry Hub</string>
-    <string name="result_shared">Successfully shared BlackBerry Hub to your friends!</string>
+
+    <string name="action_invite">Invite Friends</string>
+    <string name="result_invited_app">Successfully invited BlackBerry Hub to your friends!</string>
+    <string name="result_failed_to_invite_app">Failed to invite BlackBerry Hub!</string>
+    <string name="invitation_title">Invitation to BlackBerry Hub</string>
+    <string name="invitation_message">Hello, I would like to introduce BlackBerry Hub to you!</string>
+    <string name="invitation_email_html_content">&lt;html&gt;&lt;body&gt;Please click on the link to install &lt;a href=\"%%APPINVITE_LINK_PLACEHOLDER%%\"&gt;BlackBerry Hub&lt;/a&gt;&lt;p/&gt;&lt;a href=\"%%APPINVITE_LINK_PLACEHOLDER%%\"&gt;&lt;img src=\"https://lh3.googleusercontent.com/yN_m90WN_HSCohXdgC2k91uSTk9dnYfoxTYwG_mv_l5_05dV2CzkQ1B6rEqH4uqdgjA=w300-rw\" height=\"45\" width=\"45\"&gt;&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="invitation_email_subject">Invitation to BlackBerry Hub</string>
+    <string name="invitation_deep_link">https://friendofblackberryhub.com/invite_to_bbhub</string>
+    <string name="invitation_deep_link_blackberry_hub">https://play.google.com/store/apps/details?id=com.blackberry.hub</string>
+
+    <string name="action_share_promotion">Share Promotion</string>
+    <string name="result_send_promotion">Successfully sent BlackBerry Hub Ad-Free promotion to your friends!</string>
+    <string name="result_failed_to_send_promotion">Failed to send BlackBerry Hub Ad-Free!</string>
+    <string name="promotion_title">Ad-Free for BlackBerry Hub</string>
+    <string name="promotion_message">Hello, I would like to send a Ad-Free promotion to you!</string>
+    <string name="promotion_email_html_content">&lt;html&gt;&lt;body&gt;Please click on the link to activate &lt;a href=\"%%APPINVITE_LINK_PLACEHOLDER%%\"&gt;BlackBerry Hub Ad-Free&lt;/a&gt;&lt;p/&gt;&lt;a href=\"%%APPINVITE_LINK_PLACEHOLDER%%\"&gt;&lt;img src=\"https://lh3.googleusercontent.com/yN_m90WN_HSCohXdgC2k91uSTk9dnYfoxTYwG_mv_l5_05dV2CzkQ1B6rEqH4uqdgjA=w300-rw\" height=\"45\" width=\"45\"&gt;&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="promotion_email_subject">Ad-Free for BlackBerry Hub</string>
+    <string name="promotion_deep_link_promotion_code">https://friendofblackberryhub.com/promotion_code/</string>
+    <string name="text_promotion_code_received">Promotion code received: </string>
 </resources>

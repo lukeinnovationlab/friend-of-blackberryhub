@@ -8,18 +8,48 @@
     android:orientation="vertical"
     tools:context="com.lukeinnovationlab.friendofblackberryhub.MainActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/text_intro"
-        android:textColor="@color/colorPrimary"
-        android:textSize="@dimen/text_size_random_number"/>
+        android:layout_marginBottom="@dimen/action_vertical_margin"
+        android:layout_marginTop="@dimen/action_vertical_margin"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/action_share"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_intro"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_random_number"/>
+
+        <Button
+            android:id="@+id/action_invite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onInvite"
+            android:text="@string/action_invite"/>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onShare"
-        android:text="@string/action_share"/>
+        android:layout_marginBottom="@dimen/action_vertical_margin"
+        android:layout_marginTop="@dimen/action_vertical_margin"
+        android:orientation="vertical">
 
+        <Button
+            android:id="@+id/action_share_promotion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSharePromotion"
+            android:text="@string/action_share_promotion"/>
+
+        <TextView
+            android:id="@+id/text_promotion_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_promotion_code_received"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_promotion_code"/>
+    </LinearLayout>
 </LinearLayout>
