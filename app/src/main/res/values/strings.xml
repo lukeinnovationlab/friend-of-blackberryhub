@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Friend Of BlackBerry Hub</string>
+    <string name="text_intro">BlackBerry Hub is great! \nNow you can share BlackBerry Hub to your friends!</string>
+    <string name="action_share">Share BlackBerry Hub</string>
+    <string name="result_shared">Successfully shared BlackBerry Hub to your friends!</string>
+</resources>

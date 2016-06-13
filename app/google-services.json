@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "54897804655",
+    "firebase_url": "https://friendofblackberryhub.firebaseio.com",
+    "project_id": "friendofblackberryhub",
+    "storage_bucket": "friendofblackberryhub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54897804655:android:56b4f643a133821e",
+        "android_client_info": {
+          "package_name": "com.lukeinnovationlab.friendofblackberryhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54897804655-1gp8oivqnpalt9f0us6kcds244jk8pd0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lukeinnovationlab.friendofblackberryhub",
+            "certificate_hash": "1C5AC94EBDA243CD79A4309BF4C7087EA4DBC9AD"
+          }
+        },
+        {
+          "client_id": "54897804655-3dh7q4n8058bkm3j5b57gakbqgm7gen3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCZbKWxnl9lmCVSrlvvRZR8017eEYHqiQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54897804655-3dh7q4n8058bkm3j5b57gakbqgm7gen3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
